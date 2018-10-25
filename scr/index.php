@@ -1,4 +1,4 @@
 <?php
-$welcome = "hi my first docker image test1"
+$welcome = "hi my first docker image test2"
 echo $welcome
 ?>
