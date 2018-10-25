@@ -1,0 +1,7 @@
+cd /
+cd /home/Dockerfile
+docker stop helloword
+docker rm helloword
+docker build -t hello-word  /home/Dockerfile
+docker run -d --name helloword -p80:80 -v /home/Dockerfile/scr:/var/www/html hello-word
+
