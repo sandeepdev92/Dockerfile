@@ -1,7 +1,7 @@
 cd /
 cd /home/Dockerfile
-docker stop helloword
+docker stop helloworld
 docker rm helloword
-docker build -t hello-word  /home/Dockerfile
-docker run -d --name helloword -p80:80 -v /home/Dockerfile/scr:/var/www/html hello-word
+docker build -t hello-world  /home/Dockerfile
+docker run -d --name helloworld -p80:80 -v /home/Dockerfile/scr:/var/www/html hello-word
 
